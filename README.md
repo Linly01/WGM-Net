@@ -27,7 +27,18 @@ The sensor IDs and their corresponding longitude and latitude are obtained from 
 
 Based on these sensor coordinates, POI features are collected from OpenStreetMap through the Overpass API using OSMnx.
 
-For each sensor node, POIs within a 500-meter radius are counted and grouped into six functional categories:education, medical, residential, transport, commercial, leisure
+For each sensor node, POIs within a 500-meter radius are counted and grouped into six functional categories: education, medical, residential, transport, commercial, and leisure.
+
+The detailed category definition is as follows:
+
+| Functional category | Included POI types |
+|---|---|
+| `education` | school, university, kindergarten |
+| `medical` | hospital, clinic, pharmacy |
+| `residential` | residential buildings, apartments |
+| `transport` | bus station, tram stop, parking, fuel station, taxi facility, traffic signal |
+| `commercial` | restaurant, cafe, supermarket, convenience store, bank, ATM, hotel |
+| `leisure` | park, sports centre, theatre |
 
 The related scripts are located in:/preprocessing
 
