@@ -46,7 +46,7 @@ These POI matrices are used as the geographic prior inputs of the GeoDMN module.
 
 # Requirements
 
-Python 3.6.5, Pytorch 1.9.0, Numpy 1.16.3, argparse, configparser and osmnx
+Python 3.8.0, Pytorch 2.0.0, Numpy 1.16.3, argparse, configparser and osmnx
 
 # Model Training
 ```bash
